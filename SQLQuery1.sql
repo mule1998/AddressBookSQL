@@ -37,9 +37,18 @@ SELECT * FROM AddressBookTable;
 ------Edit contact using their name---
 
 
+<<<<<<< HEAD
 UPDATE AddressBookTable SET Phonenum=9745638984 WHERE FirstName='Sarika';
 UPDATE AddressBookTable SET LastName='Maske' WHERE FirstName='Suchitra';
 UPDATE AddressBookTable SET EmailId='kumar12@gmail.com' WHERE LastName='Sutar';
 select * from AddressBookTable;
 =======
 >>>>>>> UC3_InsertNewContacts
+=======
+UPDATE AddressBookTable SET Phonenum=97456638984 WHERE FirstName='Shubham';
+UPDATE AddressBookTable SET LastName='Maske' WHERE FirstName='Prajwal';
+UPDATE AddressBookTable SET EmailId='kumar12@gmail.com' WHERE LastName='Mahajan';
+select * from AddressBookTable;
+
+
+>>>>>>> UC4_AbilityToEditContact
