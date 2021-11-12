@@ -50,3 +50,11 @@ DELETE FROM AddressBookTable WHERE FirstName='Neha';
 SELECT * FROM AddressBookTable;
 
 
+
+---------------UC6---------------
+-----Retrieve person's City------
+
+
+SELECT FirstName FROM  AddressBookTable WHERE City='Mumbai' or StateName='Maharashtra';
+
+
