@@ -21,7 +21,7 @@ EmailId varchar(100)
 SELECT * FROM AddressBookTable;
 
 
-----------UC3-----Insert into tables using fields--------
+----------UC3----->Insert into tables using fields--------
 
 
 INSERT  AddressBookTable VALUES('Shubham','Mule','Kotul','Akole','Maharashtra',422610,8792810271,'shubham@gmail.com'),
@@ -40,5 +40,13 @@ UPDATE AddressBookTable SET Phonenum=97456638984 WHERE FirstName='Shubham';
 UPDATE AddressBookTable SET LastName='Maske' WHERE FirstName='Prajwal';
 UPDATE AddressBookTable SET EmailId='kumar12@gmail.com' WHERE LastName='Mahajan';
 select * from AddressBookTable;
+
+
+---------------UC5---------------
+-----Delete contact using their name------
+
+
+DELETE FROM AddressBookTable WHERE FirstName='Neha';
+SELECT * FROM AddressBookTable;
 
 
