@@ -24,9 +24,11 @@ SELECT * FROM AddressBookTable;
 ----------UC3----->Insert into tables using fields--------
 
 
-INSERT  AddressBookTable VALUES('Sarika','Boxi','Jhirpani','Rourkela','Odisha',769042,458721564,'sarikabx12@gmail.com'),
-('Sujata','Patra','Jhirpani','Rourkela','Odisha',769042,3587215654,'sujatax14@gmail.com'),
-('Debasmita','Sutar','Jagda','Rourkela','Odisha',769042,258721564,'deba12@gmail.com'),
-('Suchitra','Mallick','Kalpana','Bhubaneswar','Odisha',751042,458721564,'suchim12@gmail.com');
+INSERT  AddressBookTable VALUES('Shubham','Mule','Kotul','Akole','Maharashtra',422610,8792810271,'shubham@gmail.com'),
+('Neha','Shelke','Warora','Nagpur','Chandigad',3333333,8232322323,'neha@gmail.com'),
+('Srujan','Mahajan','Dombivali','Mumbai','Maharashtra',444444,9112121212,'srujan@gmail.com'),
+('Prajwal','Zurunge','Chandannagar','Vimannagar','PPPP',555555,9876543322,'prajwal@gmail.com');
 ---Retrieve all data from AddressBookTable---------
 SELECT * FROM AddressBookTable;
+
+
