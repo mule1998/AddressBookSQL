@@ -36,9 +36,7 @@ SELECT * FROM AddressBookTable;
 ------Edit contact using their name---
 
 
-UPDATE AddressBookTable SET Phonenum=9745638984 WHERE FirstName='Ashish';
-UPDATE AddressBookTable SET LastName='Maske' WHERE FirstName='Sagar';
-UPDATE AddressBookTable SET EmailId='Kumar12@gmail.com' WHERE LastName='Kumar';
-
-
+UPDATE AddressBookTable SET Phonenum=9745638984 WHERE FirstName='Sarika';
+UPDATE AddressBookTable SET LastName='Maske' WHERE FirstName='Suchitra';
+UPDATE AddressBookTable SET EmailId='kumar12@gmail.com' WHERE LastName='Sutar';
 select * from AddressBookTable;
